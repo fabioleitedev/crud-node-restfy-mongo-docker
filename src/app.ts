@@ -14,7 +14,7 @@ class App {
 	}
 
 	private database(): void {
-		mongoose.connect('mongodb://mongo:27017', {
+		mongoose.connect('mongodb://' + environment.mongoHost + ':27017', {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 		});

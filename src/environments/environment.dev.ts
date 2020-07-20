@@ -5,6 +5,7 @@
 export const environment = {
     production: false,
     basePath: '/sami',
+    mongoHost: 'localhost'
 };
 
 /*
