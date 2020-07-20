@@ -6,7 +6,7 @@ This is an restful API with CRUD operations to control beneficiary data.
 
 Clone this repository and run the follow command:
 
-## Standalone mode (You must have Docekr installed and a MongoDB container running on localhost)
+## Standalone mode (You must have Docker installed and a MongoDB container running on localhost)
 
 ``` docker run -d -p 27017:27017 mongo ```
 ``` npm run dev ```
