@@ -1,0 +1,41 @@
+{
+	"name": "crud-node-restfy-mongo-docker",
+	"version": "1.0.0",
+	"description": "A code challenge to build a restful API with node, restify, mongo and docker.",
+	"main": "server.ts",
+	"scripts": {
+        "start": "nodemon server.js",
+        "dev": "nodemon src/server.ts",
+        "build:prod": "tsc && docker-compose up --build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fabiosantanadev/crud-node-restfy-mongo-docker.git"
+	},
+	"keywords": [
+		"node.js",
+		"restify",
+		"docker",
+		"mongo"
+	],
+	"author": "Fabio SantAna",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fabiosantanadev/crud-node-restfy-mongo-docker/issues"
+	},
+	"homepage": "https://github.com/fabiosantanadev/crud-node-restfy-mongo-docker#readme",
+	"dependencies": {
+		"@types/mongoose": "^5.7.32",
+		"@types/restify": "^8.4.2",
+		"@types/restify-cors-middleware": "^1.0.1",
+		"mongoose": "^5.9.25",
+		"nodemon": "^2.0.4",
+		"restify": "^8.5.1",
+		"restify-cors-middleware": "^1.1.1",
+		"tslint": "^6.1.2"
+	},
+	"devDependencies": {
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.7"
+	}
+}
