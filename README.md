@@ -8,8 +8,7 @@ Clone this repository and run the follow command:
 
 ## Standalone mode (You must have Docker installed and a MongoDB container running on localhost)
 
-``` docker run -d -p 27017:27017 mongo ```
-``` npm run dev ```
+``` docker run -d -p 27017:27017 mongo && npm run dev ```
 
 ## Containers mode (You must have Docker installed)
 
