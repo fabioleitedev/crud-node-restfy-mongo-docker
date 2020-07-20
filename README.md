@@ -6,10 +6,10 @@ This is an restful API with CRUD operations to control beneficiary data.
 
 Clone this repository and run the follow command:
 
-`` Development mode ``
+## Development mode
 
 ``` npm run deploy ```
 
-`` Docker Compose mode ```
+## Docker Compose mode
 
 ``` npm run deploy:prod ```
